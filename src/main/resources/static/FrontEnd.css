@@ -1,0 +1,20 @@
+thead {
+    color: blue;
+}
+
+tbody {
+    color: red;
+
+}
+
+tr:nth-child(odd) {
+    background: lightgray;
+}
+
+tr:nth-child(even):hover {
+    background: purple;
+}
+
+.testbtn {
+    background-color: red;
+}
