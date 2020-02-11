@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>       -->
+    <script>
+        /*
+
+        $(document).ready(function(){
+            $("#btn").click(function(){
+                $("#demo").text($("#inputTxt").val());
+            });
+        });
+
+         */
+    </script>
+
+</head>
+<body>
+
+<input type="text" placeholder="Input i dette felt" id="inputTxt"/>
+<button id="btn" onclick="changeTxt()">Ændre tekst</button>
+
+<p id="demo" value="Anden tekst kommer her."/>
+
+
+<script>
+    function changeTxt(){
+        document.getElementById("demo").innerHTML = document.getElementById("inputTxt").value;
+    }
+</script>
+
+
+
+</body>
+
+</html>
